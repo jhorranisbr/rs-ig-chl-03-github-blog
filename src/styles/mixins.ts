@@ -42,7 +42,6 @@ export const mixins = {
     link: css`
       font-family: 'Nunito', sans-serif;
       font-size: 0.75rem;
-      line-height: 1.6;
       font-weight: 800;
     `,
   },
