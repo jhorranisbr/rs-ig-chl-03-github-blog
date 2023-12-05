@@ -12,7 +12,12 @@ export const HeaderContainer = styled.header`
   background-size: 100%;
   background-position: bottom center;
 
-  img {
+  a {
     margin: 4rem auto 8.375rem;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
   }
 `

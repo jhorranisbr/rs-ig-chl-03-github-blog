@@ -77,3 +77,15 @@ export const InfoFooterItem = styled.div`
     font-size: 1.125rem;
   }
 `
+
+export const Description = styled.div`
+  padding: 2.5rem 2rem;
+
+  a {
+    color: ${({ theme }) => theme.blue};
+  }
+
+  img {
+    max-width: 100%;
+  }
+`

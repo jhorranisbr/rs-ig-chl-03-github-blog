@@ -4,7 +4,7 @@ import { mixins } from '../../styles/mixins'
 export const HomeContainer = styled.main`
   width: 100%;
   max-width: 54rem;
-  margin: 0 auto;
+  margin: 0 auto 2rem;
 `
 
 export const ProfileContainer = styled.div`
@@ -125,6 +125,10 @@ export const SearchFormContainer = styled.form`
       box-shadow: none;
       border-color: ${({ theme }) => theme.blue};
     }
+
+    &:disabled {
+      cursor: not-allowed;
+    }
   }
 `
 
@@ -146,6 +150,6 @@ export const SearchFormHeader = styled.header`
 
 export const PostListContainer = styled.div`
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr 1fr;
   gap: 2rem;
 `
